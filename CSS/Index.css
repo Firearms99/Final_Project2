@@ -6,10 +6,16 @@ body{
     background-color: grey;
     /*background-image: url("../Images/pexels-vasilis-karkalas-half-dome.jpg");
   /* Set a specific height */
-  min-height: 120vh; 
+  /*min-height: 120vh; 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /*background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+}
+figure.profile{
+    background: blue url("../images/WorkerBee.JPG") no-repeat center;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
 }
