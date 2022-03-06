@@ -4,12 +4,12 @@
 }
 body{
     background-color: grey;
-}
-a{
-    justify-content: center;
-}
-.Me{
-    background: aqua url(../Images/WorkerBee.JPG) no-repeat;
-    background-size: 5px;
-    border-radius: 50%;
+    /*background-image: url("../Images/pexels-vasilis-karkalas-half-dome.jpg");
+  /* Set a specific height */
+  min-height: 120vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
