@@ -13,9 +13,20 @@ body{
   background-repeat: no-repeat;
   background-size: cover;*/
 }
+section.Author{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 figure.profile{
     background: blue url("../images/WorkerBee.JPG") no-repeat center;
-    height: 100px;
-    width: 100px;
-    background-size: cover;
+    height: 400px;
+    width: 400px;
+    background-size: 120%;
+    border-radius: 25%;
+}
+p{
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 200%;
 }
