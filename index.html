@@ -4,56 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/Index.css">
     <title>Andrew's Portfolio</title>
 </head>
 <body>
-    <nav>
-        <ul class="Navbar">
-            <li class="me"><a href="#me">About Myself</a></li>
-            <li class="Wrk_Exp"><a href="#Wrk_Exp">Work Experiance</a></li>
-            <li class="Ideology"><a href="#Ideology">Ideology</a></li>
-        </ul>
-    </nav>
-    <section class="Author">
-        <figure class="profile"></figure>
-        <h2><a id="me">About Myself</a></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel cumque quidem vero qui, illo reiciendis culpa laudantium facilis nobis harum obcaecati corrupti quas consequatur non sapiente voluptates maiores placeat!</p>
-    </section>
-    <section class="Experiance">
-        <h2><a id="Wrk_Exp">Work Experiance</a></h2>
-    </section>
-    <!--This is for the images-->
-    <div class="container">
-        <input type="radio" name="slider" id="item-1" checked>
-        <input type="radio" name="slider" id="item-2">
-        <input type="radio" name="slider" id="item-3">
-    <!--This is for the rotation of the Carousel-->
-      <div class="cards">
-    <!--Picture One-->
-        <label class="card" for="item-1" id="song-1">
-          <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
-        </label>
-    <!--Picture Two-->
-        <label class="card" for="item-2" id="song-2">
-          <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
-        </label>
-    <!--Picture Three-->
-        <label class="card" for="item-3" id="song-3">
-          <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
-        </label>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/pexels-mick-haupt-lake.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/pexels-zetong-forest.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/pexels-vasilis-karkalas-half-dome.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      
-    <section class="Thoughts">
-        <h2><a id="Ideology">Ideology</a></h2>
-    </section>
-    <footer>
-        <ul class="Ftr_Stf">
-            <li><a href=Contact.html>Contact Me</a></li>
-            <li><a href="#">Copyright Info</a></li>
-            <li><a href="#">Back to Top</a></li>
-        </ul>
-    </footer>
 </body>
 </html>
 
