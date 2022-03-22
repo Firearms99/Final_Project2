@@ -4,6 +4,8 @@
 }
 body{
     background-color: grey;
+    width: 100vw;
+    height: 200vh;
     /*background-image: url("../Images/pexels-vasilis-karkalas-half-dome.jpg");
   /* Set a specific height */
   /*min-height: 120vh; 
@@ -14,5 +16,10 @@ body{
   background-size: cover;*/
 }
 /*----------------------------Author Section-------------------------------*/
+.Carousel-Outer{
+  width: 50%;
+  height: 50%;
+ 
+}
 
 /*------------------------Work Experience Section----------------------------*/
