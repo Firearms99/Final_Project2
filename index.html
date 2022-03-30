@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Index.css">
     <title>Andrew's Portfolio</title>
 </head>
 <body>
@@ -14,17 +14,27 @@
             <li class="me"><a href="#me">About Myself</a></li>
             <li class="Wrk_Exp"><a href="#Wrk_Exp">Work Experiance</a></li>
             <li class="Ideology"><a href="#Ideology">Ideology</a></li>
+            <li><a href=Contact.html>Contact Me</a></li>
         </ul>
     </nav>
+    <!-----------------------------Jumbotron---------------------------------->
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-white bg-dark rounded-3">
+        <div class="profile"></div>
+        <h2>Change the background</h2>
+        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+        <button class="btn btn-outline-light" type="button">Example button</button>
+      </div>
+    </div>
     <!-----------------------------Author Profile----------------------------->
-    <figure class="profile"></figure>
-    <section class="Author">
+      <section class="Author">
         <h2><a id="me">About Andrew</a></h2>
         <p class="Author-text">Hello my name is Andrew Goff. I'm a 22-year-old Bitwise student currently learning how to code in HTML & CSS with ambitions to learn more. A little about myself, I was raised in Fresno County and graduated from Buchanan High School. Since then, I have been creating opportunities for myself and filling my resume with invaluable experiances. Some of my pass times include: Hiking, listening to podcasts, and watching movies.</p>
     </section>
-    <!---------------------------------Experiance----------------------------->
+    <!---------------------------------Experiance (@ media over 600px)----------------------------->
     <section class="Experiance">
       <h2><a id="Wrk_Exp">Work Experiance</a></h2>
+      
       <div class="container">
         <div class="row">
           <div class="col"></div>
@@ -111,7 +121,7 @@
                 <li>TBA</li>
               </ul>
             </div>
-          </div>
+          </div> 
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,11 +137,30 @@
     </div>
     </div>
     </div>
+    <!---------------------------------Experiance (@ media under 600px)----------------------------->
+    <div class="Row_1">
+      <figure class="Unifi"></figure>
+      
+      <figure class="Roofer"></figure>
+    <!-- </div>
+    <div class="Row_2"> -->
+      <figure class="Sexer"></figure>
+      <figure class="Ramper"></figure>
+    <!-- </div>
+    <div class="Row_3"> -->
+      <figure class="Busser"></figure>
+      <figure class="Produce"></figure>
+    <!-- </div>
+    <div class="Row_4"> -->
+      <figure class="Usher"></figure>
+      <figure class="Processor"></figure>
+    </div>
     </section>
+
     <!---------------------Ideology------------------------------------------->
     <section class="Thoughts">
         <h2><a id="Ideology">Ideology</a></h2>
-        <p>It is my belief that people affect each other like energy, when one person is happy, people around them get a little bit happier too and vice versa. So when I go out into the world, I always try to do my best to keep a positive attitude in hopes this improves the attitudeof those around me. To be realistic, I know there are times that I can't keep the postitivity, so I go outside, exercise, and/or start venting to a trusted friend since internal pressure built isn't good for my soul, especially when it spills out at some innocent bystander.</p>
+        <p>It is my belief that people affect each other like energy, when one person is happy, people around them get a little bit happier too and vice versa. So when I go out into the world, I always try to do my best to keep a positive attitude in hopes this improves the attitude of those around me. To be realistic, I know there are times that I can't keep the postitivity, so I go outside, exercise, and/or start venting to a trusted friend since internal pressure built isn't good for my soul, especially when it spills out at some innocent bystander.</p>
     </section>
     <!-----------------------Footer------------------------------------------->
     <footer>
