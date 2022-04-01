@@ -269,6 +269,8 @@ Nav{
     flex-direction: column;
     justify-content: center;
 }
+/*I wished I learned about SCSS before :,( */
+
 /*-----------------Ideology---------------*/
 .Thoughts{
     background-color: rgb(0, 0, 0, 0.5);
