@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:601px){
     
     body{
     background-color: grey;
@@ -41,13 +41,20 @@ a:visited{
     color: white;
 }
 /*--------------------------------Jumbotron----------------------------------*/
-
+.profile{
+    background-image: url(../Images/WorkerBee.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
 /*---------------------------Author Section----------------------------------*/
 section.Author{
     background-color: rgb(8, 8, 8, .4);
     color: white;
     text-shadow: 5px 5px 5px black;
     font-size: 2rem;
+    font-family: 'Noto Serif', serif;
     padding: 2rem;
     margin: 4rem;
     border-radius: 8%;
@@ -111,12 +118,13 @@ h5,h6,li{
     box-shadow: 10px 10px 10px;
     border-radius: 8%;
 }
-/*-------------------------------Ideology--------------------------------------*/
+    /*-------------------------------Ideology--------------------------------------*/
 .Thoughts{
     background-color: rgb(8, 8, 8, .4);
     color: white;
     text-shadow: 5px 5px 5px black;
     font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
     padding: 2rem;
     margin: 4rem;
     border-radius: 8%;
@@ -137,14 +145,17 @@ ul.Ftr_Stf{
 }
 }
 /*-------------------------------Mobile--------------------------------------*/
-@media only screen and (max-width: 601px){
+@media only screen and (max-width: 600px){
 
 body{
     background-color: grey;
-    background-image: url(../Images/pexels-zetong-forest.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 150vh;
-
+}
+#forest{
+    background: grey url(../Images/pexels-zetong-forest.jpg) no-repeat;
+    background-size: contain;
+}
+h5,h6,li{
+    text-shadow: 2px 2px 2px black;
 }
 /*------------------Navbar-----------------*/
 Nav{
@@ -154,7 +165,8 @@ Nav{
 .Author{
     background-color: rgb(0, 0, 0, 0.5);
     color: rgb(255, 255, 255, 0.7);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Noto Serif', serif;
     margin: 1rem;
     padding: 1rem;
     border-radius: 8%;
@@ -162,84 +174,107 @@ Nav{
 /*--------------Experiance----------------*/
 
 .Experiance{
-    /* background: blue url(../Images/pexels-vasilis-karkalas-half-dome.jpg) no-repeat; */
+    background: blue url(../Images/Night_Sky.jpg) no-repeat;
     background-color: blue;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
-.Row_1, .Row_2, .Row_3, .Row_4{
-    display: flex;
+
+.Unifi{
+    background: black url("../Images/Turbine.jpg") no-repeat center;
+    width: 80%;
+    background-size: cover;
+    border-radius: 25%;
+    margin: .5rem;
+    padding: 1rem;
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
-.Unifi{
-    background: black url("../Images/Turbine.jpg") no-repeat center;
-    height: 8rem;
-    width: 16rem;
-    background-size: cover;
-    border-radius: 25%;
-    margin: 1rem;
-}
 .Roofer{
     background: black url("../Images/Roofer.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Sexer{
     background: black url("../Images/Chicks.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.Ramper{
-    background: black url("../Images/Turbine.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+.Bitwise{
+    background: black url("../Images/Programming.jpg") no-repeat center;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Busser{
     background: black url("../Images/Dirty_Dishes.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Produce{
     background: black url("../Images/Produce_Market.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Usher{
     background: black url("../Images/Popcorn.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Processor{
     background: black url("../Images/Office.jpg") no-repeat center;
-    height: 8rem;
-    width: 45%;
+    width: 80%;
     background-size: cover;
     border-radius: 25%;
     margin: .5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /*-----------------Ideology---------------*/
 .Thoughts{
     background-color: rgb(0, 0, 0, 0.5);
     color: rgb(255, 255, 255, 0.7);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
     margin: 1rem;
     padding: 1rem;
     border-radius: 8%;
@@ -247,5 +282,22 @@ Nav{
 /*-----------------Footer-----------------*/
 .Ftr_Stf{
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
 }
+.Ftr_Stf a:visited{
+        color:white;
+}
+}
+@media screen and (max-width: 600px) {
+    #ghost {
+        display: none;
+    }
+}
+@media screen and (min-width:600px) {
+    #text{
+        display: none;
+    }
 }

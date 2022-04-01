@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Me</title>
 </head>
 <body>
@@ -14,11 +15,37 @@
             <li class="Wrk_Exp"><a href="./index.html#Wrk_Exp">Work Experiance</a></li>
             <li class="Ideology"><a href="./index.html#Ideology">Ideology</a></li>
     </Nav>
-    <section class="Stuff">
-        <h1>Contact Me</h1>
-        <h3>First Name</h3>
-        <h3>Last Name</h3>
-        <h4>Button</h4>
-    </section>
+    <div id="ContactPage">
+        <div id="header">
+            <h1>Let Me Know What's Up Here</h1>
+        </div>
+        <form class="stuff">
+            <div id="Names">
+                <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" aria-describedby="textHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="lastName inputdefault" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" aria-describedby="textHelp">
+                </div>
+            </div>
+            <div id="textBox">
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <input style="height: 10rem;" type="text" class="form-control" id="message" aria-describedby="textHelp">
+                </div>
+                <button type="submit" class="btn btn-primary" style="float:right">Submit</button>
+            </div>
+            <div id="Media">
+                <ul class="contact">
+                    <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+                    <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" class="fa fa-youtube"></a></li>  
+                </ul>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
